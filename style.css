@@ -1,0 +1,31 @@
+body {
+    height: 100vh;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+      
+}
+
+.text-and-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;;
+    flex-direction: column;
+    height: 100%;
+}
+
+.hexBtn {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    cursor: pointer;
+    outline: none;
+    background-color: #333;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: white;
+}
+
+.hex {
+    font-size: 1.5em;
+}
